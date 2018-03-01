@@ -1,0 +1,149 @@
+﻿figure,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper>figure>figcaption {
+	text-align: center;
+}
+
+.mis-slider li figcaption {
+	font-weight: 500;
+	letter-spacing: .8px;
+}
+
+.mis-stage,
+.mis-slider,
+.mis-slide,
+.mis-container,
+.mis-container * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.mis-stage,
+.mis-slider {
+	position: relative;
+	overflow: hidden;
+	
+}
+
+.mis-stage {
+	width: 80%;
+	text-align: center;
+	margin: auto;
+}
+
+.mis-slider {
+	list-style: none;
+	overflow: visible;
+	height: 100%;
+	margin-top: 0;
+}
+
+.mis-slide {
+	width: 100%;
+	height: auto;
+	padding: 0;
+	display: block;
+	position: relative;
+	float: left;
+	overflow: visible !important;
+}
+
+.mis-slide.mis-current {
+	z-index: 100;
+}
+
+.mis-container {
+	display: block;
+	width: auto;
+	height: auto;
+	border: 0;
+}
+
+.mis-nav-list {
+	position: absolute;
+	bottom: .5em;
+	width: 100%;
+	margin: 0 auto;
+	z-index: 300;
+	padding: 0;
+}
+
+.mis-nav-list li {
+	display: none;
+}
+
+.mis-nav-list li a {
+	display: block;
+	width: 11px;
+	height: 11px;
+	text-indent: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	border: 1px solid #eee;
+	border-radius: 7px;
+	opacity: .3;
+	-webkit-box-shadow: inset 0 0 2px #333;
+	box-shadow: inset 0 0 2px 2px #333;
+	margin: 0 3px;
+}
+
+.mis-slider {
+	margin:238px auto;
+}
+
+.mis-slider li a {
+	text-decoration: none;
+	color: #666;
+	display: block;
+}
+
+.mis-slider li figcaption {
+	margin-top: 35px;
+	line-height: 30px;
+}
+.mis-slider li figcaption h4{
+	    color: #f4c118;
+	    font-size: 26px;
+}
+.mis-slider li figcaption h5{
+	font-size: 16px;
+    font-weight: bold;
+    height: 50px;
+    line-height: 50px;
+}
+
+.mis-slider li figcaption p{
+	font-size: 14px;
+}
+
+.mis-slider li img {
+	max-width: 270px;
+	width: 100%;
+	border-radius: 135px;
+	border: none;
+}
+
+.mis-slide {
+	width: 400px;
+	height: 400px;
+	padding: 10px;
+	margin-top: -138px
+}
+
+.mis-nav-buttons a {
+	color: #fff;
+}
+
+
+@media screen and (min-width: 1200px) {
+	.main {
+		width: 50%;
+	}
+}
